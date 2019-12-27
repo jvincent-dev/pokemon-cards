@@ -36,6 +36,8 @@ export default function App() {
 
   return (
     <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', backgroundColor: '#88aced', padding: '16px' }}>
+      <h1 style={{ textAlign: 'center', margin: 0 }}>Pokedex!</h1>
+
       <Pokedex data={p1} isWinner={exp1 > exp2} />
 
       <button

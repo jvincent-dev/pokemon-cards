@@ -4,8 +4,6 @@ import Card from './card'
 export default function Pokedex({ data, isWinner }) {
   return (
     <div>
-      <h1 style={{ textAlign: 'center', marginBottom: 0 }}>Pokedex!</h1>
-
       <h2 style={{ marginTop: 0, textAlign: 'center', color: isWinner ? 'green' : 'red' }}>{isWinner ? 'Winner' : 'Loser'}</h2>
 
       <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-evenly' }}>
