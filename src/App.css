@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+.Pokeimage img {
+  transition: all ease 0.5s;
+}
+
+.Pokeimage img:hover {
+  transform: scale(1.25);
+  opacity: 0.8;
+}
